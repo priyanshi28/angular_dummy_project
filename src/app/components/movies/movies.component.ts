@@ -15,7 +15,7 @@ export class MoviesComponent implements OnInit {
   }
 setMovieList(event) {
  	this.movies = event.movies;
- 	console.log(this.movies); 
+
  	
  }
 }
